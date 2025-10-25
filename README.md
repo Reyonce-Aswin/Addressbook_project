@@ -137,11 +137,6 @@ Embedded Systems Student, Emertxe Information Technologies, Bangalore
 
 ---
 
-## 🪶 License
-
-This project is open-source and free to use under the [MIT License](LICENSE).
-
----
 
 ## 💡 Future Enhancements
 
