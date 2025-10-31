@@ -1,12 +1,12 @@
 [README.md](https://github.com/user-attachments/files/23111273/README.md)
-# 📇 Address Book in C
+# Address Book in C
 
 A **console-based address book application** written in C, designed for Linux terminal environments.  
 It allows users to efficiently **manage, search, edit, and store contact information** directly from the command line.
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
 This address book system provides a simple interface to:
 - Add, edit, delete, and view contacts
@@ -19,7 +19,7 @@ All contact data is stored in a **`addressbook.csv`** file, automatically loaded
 
 ---
 
-## ⚙️ Features
+## Features
 
 ✅ **Create Contacts** – Add new contacts with validation checks  
 ✅ **List Contacts** – Display all contacts in a formatted table  
@@ -32,7 +32,7 @@ All contact data is stored in a **`addressbook.csv`** file, automatically loaded
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 ├── main.c         # Entry point of the program (menu-driven interface)
@@ -43,7 +43,7 @@ All contact data is stored in a **`addressbook.csv`** file, automatically loaded
 
 ---
 
-## 🧑‍💻 How to Compile and Run
+## How to Compile and Run
 
 ### Prerequisites
 - GCC compiler
@@ -61,7 +61,7 @@ gcc main.c contact.c -o addressbook
 
 ---
 
-## 🗂️ File Format
+## File Format
 
 Contacts are stored in a **CSV** file with the following format:
 
@@ -74,7 +74,7 @@ Jane Smith,9123456789,jane@sample.com
 
 ---
 
-## 🧠 Data Structures Used
+## Data Structures Used
 
 ### `Contacts`
 ```c
@@ -95,7 +95,7 @@ typedef struct AddressBook_Data {
 
 ---
 
-## 🎨 Color Codes (for terminal display)
+## Color Codes (for terminal display)
 
 | Color | Description |
 |--------|--------------|
@@ -108,7 +108,7 @@ typedef struct AddressBook_Data {
 
 ---
 
-## 🧾 Example Usage
+## Example Usage
 
 ```
 Address book menu
@@ -129,7 +129,7 @@ Contact Added Successfully!
 
 ---
 
-## 📜 Author
+## Author
 
 **Reyonce Aswin T**  
 *Student ID: 25021_181*  
@@ -138,7 +138,7 @@ Embedded Systems Student, Emertxe Information Technologies, Bangalore
 ---
 
 
-## 💡 Future Enhancements
+## Future Enhancements
 
 - Add JSON/SQLite database support  
 - Import/export to vCard format  
